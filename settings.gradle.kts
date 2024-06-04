@@ -19,10 +19,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-
 rootProject.name = "runnerApp"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
 include(":core:presentation:designsystem")
 include(":core:presentation:ui")
